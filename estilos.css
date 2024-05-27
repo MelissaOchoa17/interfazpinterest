@@ -133,11 +133,13 @@ header nav img#pinterest-icon:hover
     position: absolute;
     margin-top: 80px;
     padding-right: 5px;
+    padding-left: 5px;
+    margin-left: 30px;
 }
 
 .imagenes
 {
-    columns: 5 240px;
+    columns: 5 280px;
     margin: auto;
 }
 
@@ -150,8 +152,8 @@ header nav img#pinterest-icon:hover
 .imagenes .card-image img
 {
     border-radius: 15px;
-    min-width: 240px;
-    max-width: 240px;
+    min-width: 280px;
+    max-width: 280px;
 }
 
 .card-image:hover > :first-child
@@ -168,7 +170,7 @@ header nav img#pinterest-icon:hover
 .button 
 {
     position: absolute;
-    left: 58%;
+    left: 50%;
     top: 5%;
     padding: 13px 15px;
     background-color: #e60023;
@@ -190,7 +192,7 @@ header nav img#pinterest-icon:hover
 .oculto-1
 {
     position: absolute;
-    left: 60%;
+    left: 52%;
     bottom: 8%;
     background-color: white;
     font-size: 30px;
@@ -205,7 +207,7 @@ header nav img#pinterest-icon:hover
 .oculto-2
 {
     position: absolute;
-    left: 78%;
+    left: 70%;
     bottom: 8%;
     background-color: white;
     font-size: 30px;
